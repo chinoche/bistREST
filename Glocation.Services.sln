@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. ServiciosExternos", "02. ServiciosExternos", "{ABD487E8-E9B4-4D5A-8AA0-CA4F136E5125}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Aplicacion", "03. Aplicacion", "{7F5820BD-AD2D-43D0-9922-62FEBE20E08F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Dominio", "04. Dominio", "{FCB7E6A5-612C-463C-9E64-55816DB5C3A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Infraestructura", "05. Infraestructura", "{C9590D43-0488-4C62-886C-15D45CAB7281}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Common", "06. Common", "{77216BF0-BFF0-4A76-AE3F-1F43966D0AB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{70980450-4DCF-4577-A47D-FE99950D9749}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.WebAPI", "Glocation.WebAPI\Glocation.WebAPI.csproj", "{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5302C050-207A-4CEA-8C71-73FA49FC4CCD} = {5302C050-207A-4CEA-8C71-73FA49FC4CCD}
+		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70} = {9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}
+		{FDCEF290-D73E-4568-9002-7BDBD2AF9C10} = {FDCEF290-D73E-4568-9002-7BDBD2AF9C10}
+		{B5024FDE-A820-449D-9A72-244E7B26AC1A} = {B5024FDE-A820-449D-9A72-244E7B26AC1A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.Common", "Glocation.Common\Glocation.Common.csproj", "{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.DataAccess", "Glocation.DataAccess\Glocation.DataAccess.csproj", "{5302C050-207A-4CEA-8C71-73FA49FC4CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.Dominio", "Glocation.Dominio\Glocation.Dominio.csproj", "{B5024FDE-A820-449D-9A72-244E7B26AC1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.Aplicacion", "Glocation.Aplicacion\Glocation.Aplicacion.csproj", "{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5302C050-207A-4CEA-8C71-73FA49FC4CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5302C050-207A-4CEA-8C71-73FA49FC4CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5302C050-207A-4CEA-8C71-73FA49FC4CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5302C050-207A-4CEA-8C71-73FA49FC4CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5024FDE-A820-449D-9A72-244E7B26AC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5024FDE-A820-449D-9A72-244E7B26AC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5024FDE-A820-449D-9A72-244E7B26AC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5024FDE-A820-449D-9A72-244E7B26AC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3233CB30-D02A-44B4-B3ED-2770E8FBBA91} = {ABD487E8-E9B4-4D5A-8AA0-CA4F136E5125}
+		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70} = {77216BF0-BFF0-4A76-AE3F-1F43966D0AB2}
+		{5302C050-207A-4CEA-8C71-73FA49FC4CCD} = {C9590D43-0488-4C62-886C-15D45CAB7281}
+		{B5024FDE-A820-449D-9A72-244E7B26AC1A} = {FCB7E6A5-612C-463C-9E64-55816DB5C3A9}
+		{FDCEF290-D73E-4568-9002-7BDBD2AF9C10} = {7F5820BD-AD2D-43D0-9922-62FEBE20E08F}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

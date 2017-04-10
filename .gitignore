@@ -1,0 +1,14 @@
+.nuget/
+.vs/
+packages/
+Glocation.Aplicacion/bin/
+Glocation.Aplicacion/obj/
+Glocation.Common/bin/
+Glocation.Common/obj/
+Glocation.DataAccess/bin/
+Glocation.DataAccess/obj/
+Glocation.Dominio/bin/
+Glocation.Dominio/obj/
+Glocation.WebAPI/bin/
+Glocation.WebAPI/obj/
+Glocation.WebAPI/obj/

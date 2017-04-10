@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../.nuget/NuGet.Config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.nuget/NuGet.exe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.nuget/NuGet.targets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Glocation.Aplicacion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Glocation.Common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Glocation.DataAccess" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Glocation.Dominio" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Glocation.WebAPI" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.Aplicacion/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.Aplicacion/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.Common/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.Common/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.DataAccess/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.DataAccess/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.Dominio/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.Dominio/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.WebAPI/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Glocation.WebAPI/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
