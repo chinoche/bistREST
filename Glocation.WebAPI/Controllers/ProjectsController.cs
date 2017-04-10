@@ -15,5 +15,21 @@ namespace Glocation.WebAPI.Controllers
             ProjectsService projectsService = new ProjectsService();
             return projectsService.getProjects();
         }
+
+        [HttpPost]
+        [Route("api/projects/save")]
+        public RespuestaWebAPI<ProjectsDTO> insertProject(ProjectsDTO project)
+        {
+            ProjectsService projectsService = new ProjectsService();
+            return projectsService.insertProject(project);
+        }
+
+        [HttpGet]
+        [Route("api/projects/")]
+        public RespuestaWebAPI<List<ProjectsDTO>> getProjectsById()
+        {
+            ProjectsService projectsService = new ProjectsService();
+            return projectsService.getProjects();
+        }
     }
 }

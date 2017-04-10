@@ -27,7 +27,7 @@ namespace Glocation.Dominio.Entidades
         public DateTime? CreatedAt{ get; set; }
 
         [StringLength(50)]
-        public string? CreatedBy { get; set; }
+        public string CreatedBy { get; set; }
         
     }
 }

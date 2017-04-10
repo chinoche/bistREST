@@ -23,5 +23,10 @@ namespace Glocation.DataAccess.RepositorioEntidades
 
             return globers;
         }
+
+        public Projects insertProject(Projects project)
+        {
+            return UnitOfWork.ProjectsRepository.Insert(project);
+        }
     }
 }

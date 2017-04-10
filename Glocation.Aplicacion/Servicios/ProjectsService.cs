@@ -36,5 +36,32 @@ namespace Glocation.Aplicacion.Servicios
             }
             return respuestaWebApi;
         }
+
+        public RespuestaWebAPI<ProjectsDTO> insertProject(ProjectsDTO projectDTO)
+        {
+            UnitOfWork unitOfWork = new UnitOfWork();
+            ProjectsRepository projectRepository = new ProjectsRepository(unitOfWork);
+
+            RespuestaWebAPI<ProjectsDTO> respuestaWebApi = new RespuestaWebAPI<ProjectsDTO>();
+            try
+            {
+                Projects project = new Projects()
+                {
+                    ProjectName = projectDTO.ProjectName,
+                    ShippingAddress = projectDTO.Address
+                };
+                projectRepository.insertProject(project);
+                unitOfWork.Save();
+            }
+            catch (Exception exception)
+            {
+                respuestaWebApi.RegistrarExcepcion(GetType(), System.Reflection.MethodBase.GetCurrentMethod().Name,
+                    exception);
+            }
+
+            return respuestaWebApi;
+
+        }
+
     }
 }
