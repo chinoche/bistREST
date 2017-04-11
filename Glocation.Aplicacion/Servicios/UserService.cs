@@ -41,17 +41,19 @@ namespace Glocation.Aplicacion.Servicios
         {
             UnitOfWork unitOfWork = new UnitOfWork();
             UserRepository userRepository = new UserRepository(unitOfWork);
-a
+
             RespuestaWebAPI<UserDTO> respuestaWebApi = new RespuestaWebAPI<UserDTO>();
             try
             {
                 Accounts account = new Accounts()
                 {
                     UserId = userDto.UserId,
+                    Name = userDto.Name,
                     Email = userDto.Name,
                     Roles = userDto.Roles
                 };
                 userRepository.insertAccounts(account);
+                unitOfWork.Save();
             }
             catch (Exception exception)
             {
