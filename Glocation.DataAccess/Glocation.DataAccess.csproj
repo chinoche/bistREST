@@ -117,7 +117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RepositorioEntidades\GlobersRepository.cs" />
     <Compile Include="RepositorioEntidades\ProjectsRepository.cs" />
     <Compile Include="RepositorioEntidades\RolesRepository.cs" />
     <Compile Include="RepositorioEntidades\UserRepository.cs" />

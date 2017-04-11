@@ -20,11 +20,13 @@ namespace Glocation.Aplicacion.Servicios
             try
             {
                 UserRepository userRepo = new UserRepository(unitOfWork);
-                List<User> users = userRepo.getUsers();
+                List<Accounts> users = userRepo.getUsers();
 
                 respuestaWebApi.Datos = users.Select(user => new UserDTO
                 {
-                    Name = user.Name
+                    Name = user.Name,
+                    Roles = user.Roles
+
                 }).ToList();
                 
             }
@@ -32,6 +34,31 @@ namespace Glocation.Aplicacion.Servicios
             {
                 respuestaWebApi.RegistrarExcepcion(GetType(), System.Reflection.MethodBase.GetCurrentMethod().Name, exception);
             }
+            return respuestaWebApi;
+        }
+
+        public RespuestaWebAPI<UserDTO> insertUser(UserDTO userDto)
+        {
+            UnitOfWork unitOfWork = new UnitOfWork();
+            UserRepository userRepository = new UserRepository(unitOfWork);
+a
+            RespuestaWebAPI<UserDTO> respuestaWebApi = new RespuestaWebAPI<UserDTO>();
+            try
+            {
+                Accounts account = new Accounts()
+                {
+                    UserId = userDto.UserId,
+                    Email = userDto.Name,
+                    Roles = userDto.Roles
+                };
+                userRepository.insertAccounts(account);
+            }
+            catch (Exception exception)
+            {
+                respuestaWebApi.RegistrarExcepcion(GetType(), System.Reflection.MethodBase.GetCurrentMethod().Name,
+                    exception);
+            }
+
             return respuestaWebApi;
         }
     }

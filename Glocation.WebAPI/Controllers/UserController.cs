@@ -10,11 +10,19 @@ namespace Glocation.WebAPI.Controllers
     public class UserController : ApiController
     {
         [HttpGet]
-        [Route("api/Users/getTest")]
+        [Route("api/accounts")]
         public RespuestaWebAPI<List<UserDTO>> getUsers()
         {
             UserService userService = new UserService();
             return userService.getAllUsers();
+        }
+
+        [HttpPost]
+        [Route("api/accounts/save")]
+        public RespuestaWebAPI<UserDTO> insertUser(UserDTO user)
+        {
+            UserService userService = new UserService();
+            return userService.insertUser(user);
         }
     }
 }

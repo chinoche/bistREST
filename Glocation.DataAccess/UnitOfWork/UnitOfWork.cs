@@ -50,11 +50,9 @@ namespace Glocation.DataAccess.UnitOfWork
         /// <summary>
         /// The Opciones por rol repository
         /// </summary>
-        GenericRepository<User> _userRepository;
+        GenericRepository<Accounts> _userRepository;
 
         GenericRepository<Roles> _rolesRepository;
-
-        GenericRepository<Globers> _globersRepository;
 
         GenericRepository<Projects> _projeectsRepository;
 
@@ -66,11 +64,11 @@ namespace Glocation.DataAccess.UnitOfWork
         /// Gets the opciones por rol repository.
         /// </summary>
         /// <value>The opciones por rol repository.</value>
-        public GenericRepository<User> UserRepository
+        public GenericRepository<Accounts> AccountsRepository
         {
             get {
                 return _userRepository ??
-                       (_userRepository = new GenericRepository<User>(Context));
+                       (_userRepository = new GenericRepository<Accounts>(Context));
             }
         }
 
@@ -80,15 +78,6 @@ namespace Glocation.DataAccess.UnitOfWork
             {
                 return _rolesRepository ??
                        (_rolesRepository = new GenericRepository<Roles>(Context));
-            }
-        }
-
-        public GenericRepository<Globers> GlobersRepository
-        {
-            get
-            {
-                return _globersRepository ??
-                       (_globersRepository = new GenericRepository<Globers>(Context));
             }
         }
 

@@ -52,13 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Accounts.cs" />
     <Compile Include="Entidades\BaseEntity.cs" />
-    <Compile Include="Entidades\Globers.cs" />
-    <Compile Include="Entidades\Position.cs" />
     <Compile Include="Entidades\Projects.cs" />
     <Compile Include="Entidades\Requisitions.cs" />
     <Compile Include="Entidades\Roles.cs" />
-    <Compile Include="Entidades\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

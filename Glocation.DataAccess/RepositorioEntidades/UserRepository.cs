@@ -16,13 +16,15 @@ namespace Glocation.DataAccess.RepositorioEntidades
             UnitOfWork = uoWContext;
         }
 
-        public List<User> getUsers()
+        public List<Accounts> getUsers()
         {
-            List<User> users = new List<User>();
-            users.Add(new User(1, "lalo landa"));
-            users.Add(new User(1, "Pechugas Laru"));
+            IQueryable<Accounts> accounts= UnitOfWork.Context.Accounts.Include("Roles");
+            return accounts.ToList();
+        }
 
-            return users;
+        public Accounts insertAccounts(Accounts account)
+        {
+            return UnitOfWork.AccountsRepository.Insert(account);
         }
     }
 }

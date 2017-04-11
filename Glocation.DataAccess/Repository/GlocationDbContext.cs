@@ -35,9 +35,14 @@ namespace Glocation.DataAccess.Repository
         /// <value>
         /// Coleccion con las opciones por Rol
         /// </value>
-        public virtual DbSet<Globers> Globers { get; set; }
 
-        
+        public virtual DbSet<Projects> Projects { get; set; }
+
+        public virtual DbSet<Roles> Roles { get; set; }
+
+        public virtual DbSet<Accounts> Accounts { get; set; }
+
+
 
         #endregion
 
@@ -57,7 +62,10 @@ namespace Glocation.DataAccess.Repository
         /// classes directly.</remarks>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            
+            modelBuilder.Entity<Accounts>()
+                .HasMany(e => e.Roles)
+                .WithMany(e => e.Accounts)
+                .Map(m => m.ToTable("Account_has_roles").MapLeftKey("UserId").MapRightKey("RoleId"));
         }
 
         #region UnitOfWork Implementation

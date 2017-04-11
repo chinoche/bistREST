@@ -27,6 +27,7 @@ namespace Glocation.DataAccess.RepositorioEntidades
         public Projects insertProject(Projects project)
         {
             return UnitOfWork.ProjectsRepository.Insert(project);
+
         }
     }
 }

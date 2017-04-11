@@ -11,7 +11,10 @@ namespace Glocation.Dominio.Entidades
     [Table("Roles")]
     public class Roles :BaseEntity
     {
-        public Roles() { }
+        public Roles()
+        {
+            Accounts = new HashSet<Accounts>();
+        }
 
         [Key]
         public int RoleId { get; set; }
@@ -19,5 +22,9 @@ namespace Glocation.Dominio.Entidades
         [Required]
         [StringLength(50)]
         public string Description { get; set; }
+
+        public Boolean status { get; set; }
+
+        public virtual ICollection<Accounts> Accounts { get; set; }
     }
 }
