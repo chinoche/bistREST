@@ -43,6 +43,10 @@ namespace BIST.DataAccess.Repository
 
         public virtual DbSet<Accounts> Accounts { get; set; }
 
+        public virtual DbSet<Address> Addresses { get; set; }
+
+        public virtual DbSet<Provider> Providers { get; set; }
+
 
 
         #endregion

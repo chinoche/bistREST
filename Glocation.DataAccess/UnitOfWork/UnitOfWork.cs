@@ -55,6 +55,8 @@ namespace BIST.DataAccess.UnitOfWork
         GenericRepository<Roles> _rolesRepository;
 
         GenericRepository<Projects> _projeectsRepository;
+
+        GenericRepository<Provider> _providerRepository;
         
 
         #endregion
@@ -87,6 +89,15 @@ namespace BIST.DataAccess.UnitOfWork
             {
                 return _projeectsRepository ??
                        (_projeectsRepository = new GenericRepository<Projects>(Context));
+            }
+        }
+
+        public GenericRepository<Provider> ProviderRepository
+        {
+            get
+            {
+                return _providerRepository ??
+                       (_providerRepository = new GenericRepository<Provider>(Context));
             }
         }
 

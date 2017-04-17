@@ -118,6 +118,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositorioEntidades\ProjectsRepository.cs" />
+    <Compile Include="RepositorioEntidades\ProviderRepository.cs" />
     <Compile Include="RepositorioEntidades\RolesRepository.cs" />
     <Compile Include="RepositorioEntidades\UserRepository.cs" />
     <Compile Include="Repository\GenericRepository.cs" />

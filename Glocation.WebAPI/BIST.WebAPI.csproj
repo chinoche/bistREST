@@ -173,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Controllers\ProviderController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -216,6 +217,10 @@
     <ProjectReference Include="..\Glocation.Common\BIST.Common.csproj">
       <Project>{9e3c9d7d-6a81-4c4d-94a9-45c0ba50ad70}</Project>
       <Name>BIST.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Glocation.Dominio\BIST.Dominio.csproj">
+      <Project>{B5024FDE-A820-449D-9A72-244E7B26AC1A}</Project>
+      <Name>BIST.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
