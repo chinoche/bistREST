@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Glocation.Dominio.Entidades
+namespace BIST.Dominio.Entidades
 {
     /// <summary>
     /// Base class for entities

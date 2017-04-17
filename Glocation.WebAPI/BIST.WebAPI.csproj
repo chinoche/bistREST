@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Glocation.WebAPI</RootNamespace>
-    <AssemblyName>Glocation.WebAPI</AssemblyName>
+    <RootNamespace>BIST.WebAPI</RootNamespace>
+    <AssemblyName>BIST.WebAPI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -194,6 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Componente\" />
     <Folder Include="Views\Globers\" />
     <Folder Include="Views\Projects\" />
     <Folder Include="Views\Roles\" />
@@ -204,17 +205,17 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\PublishProfiles\glocation.pubxml" />
+    <None Include="Properties\PublishProfiles\BIST.pubxml" />
     <None Include="Properties\PublishProfiles\WebApi.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Glocation.Aplicacion\Glocation.Aplicacion.csproj">
+    <ProjectReference Include="..\Glocation.Aplicacion\BIST.Aplicacion.csproj">
       <Project>{fdcef290-d73e-4568-9002-7bdbd2af9c10}</Project>
-      <Name>Glocation.Aplicacion</Name>
+      <Name>BIST.Aplicacion</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Glocation.Common\Glocation.Common.csproj">
+    <ProjectReference Include="..\Glocation.Common\BIST.Common.csproj">
       <Project>{9e3c9d7d-6a81-4c4d-94a9-45c0ba50ad70}</Project>
-      <Name>Glocation.Common</Name>
+      <Name>BIST.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

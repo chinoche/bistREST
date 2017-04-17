@@ -1,5 +1,5 @@
-﻿using Glocation.DataAccess.UnitOfWork;
-using Glocation.Dominio.Entidades;
+﻿using BIST.DataAccess.UnitOfWork;
+using BIST.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,9 +8,9 @@ using System.Linq.Expressions;
 using System.Linq.Dynamic;
 using System.Text;
 using System.Threading.Tasks;
-using Glocation.DataAccess.Repository;
+using BIST.DataAccess.Repository;
 
-namespace Glocation.DataAccess.Repository
+namespace BIST.DataAccess.Repository
 {
     /// <summary>
     /// Class GenericRepository.

@@ -1,12 +1,12 @@
-﻿using Glocation.DataAccess.Repository;
-using Glocation.Dominio.Entidades;
+﻿using BIST.DataAccess.Repository;
+using BIST.Dominio.Entidades;
 using System;
 using System.Data.Entity.Validation;
 using System.Linq;
-using Glocation.Common.DTO;
-using Glocation.DataAccess.Repository;
+using BIST.Common.DTO;
+using BIST.DataAccess.Repository;
 
-namespace Glocation.DataAccess.UnitOfWork
+namespace BIST.DataAccess.UnitOfWork
 {
     /// <summary>
     /// Class UnitOfWork.
@@ -16,14 +16,14 @@ namespace Glocation.DataAccess.UnitOfWork
         /// <summary>
         /// The context
         /// </summary>
-        internal GlocationDbContext Context;
+        internal BISTDbContext Context;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="UnitOfWork"/> class.
         /// </summary>
         public UnitOfWork()
         {
-            Context = new GlocationDbContext();
+            Context = new BISTDbContext();
             Context.Configuration.ProxyCreationEnabled = false;
             Context.Configuration.LazyLoadingEnabled = true;
         }
@@ -34,7 +34,7 @@ namespace Glocation.DataAccess.UnitOfWork
         /// <param name="lazyLoadingEnabled">if set to <c>true</c> [lazy loading enabled].</param>
         public UnitOfWork(bool proxyCreationEnabled, bool lazyLoadingEnabled)
         {
-            Context = new GlocationDbContext();
+            Context = new BISTDbContext();
             Context.Configuration.ProxyCreationEnabled = proxyCreationEnabled;
             Context.Configuration.LazyLoadingEnabled = lazyLoadingEnabled;
         }
@@ -55,7 +55,7 @@ namespace Glocation.DataAccess.UnitOfWork
         GenericRepository<Roles> _rolesRepository;
 
         GenericRepository<Projects> _projeectsRepository;
-
+        
 
         #endregion
 

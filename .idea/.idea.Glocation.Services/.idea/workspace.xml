@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb17e211-679e-4375-9e6b-fce6f09a84d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Glocation.Services/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Glocation.Services/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Glocation.Services/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs" afterPath="$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs" afterPath="$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glocation.Dominio/Entidades/Accounts.cs" afterPath="$PROJECT_DIR$/Glocation.Dominio/Entidades/Accounts.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs" afterPath="$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs" afterPath="$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,31 +19,110 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProjectsRepository.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs">
+      <file leaf-file-name="Accounts.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Accounts.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-158">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="479">
+              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding>
-                <marker date="1461389876000" expanded="true" signature="6:150" ph="..." />
-                <marker date="1461389876000" expanded="true" signature="203:678" ph="{...}" />
-                <marker date="1461389876000" expanded="true" signature="241:676" ph="{...}" />
-                <marker date="1461389876000" expanded="true" signature="378:435" ph="{...}" />
-                <marker date="1461389876000" expanded="true" signature="480:670" ph="{...}" />
+                <marker date="1492138972528" expanded="true" signature="6:212" ph="..." />
+                <marker date="1492138972528" expanded="true" signature="251:831" ph="{...}" />
+                <marker date="1492138972528" expanded="true" signature="315:829" ph="{...}" />
+                <marker date="1492138972528" expanded="true" signature="347:457" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projects.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Projects.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
-                <marker date="1491796971100" expanded="true" signature="6:212" ph="..." />
-                <marker date="1491796971100" expanded="true" signature="251:762" ph="{...}" />
-                <marker date="1491796971100" expanded="true" signature="316:760" ph="{...}" />
+                <marker date="1492139018991" expanded="true" signature="6:212" ph="..." />
+                <marker date="1492139018991" expanded="true" signature="251:894" ph="{...}" />
+                <marker date="1492139018991" expanded="true" signature="316:892" ph="{...}" />
+                <marker date="1492139018991" expanded="true" signature="348:416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <marker date="1492140643514" expanded="true" signature="6:150" ph="..." />
+                <marker date="1492140643514" expanded="true" signature="190:734" ph="{...}" />
+                <marker date="1492140643514" expanded="true" signature="241:732" ph="{...}" />
+                <marker date="1492140643514" expanded="true" signature="354:477" ph="{...}" />
+                <marker date="1492140643514" expanded="true" signature="599:725" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDTO.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+              <folding>
+                <marker date="1492140681101" expanded="true" signature="6:108" ph="..." />
+                <marker date="1492140681101" expanded="true" signature="140:441" ph="{...}" />
+                <marker date="1492140681101" expanded="true" signature="167:439" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlocationDbContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+              <folding>
+                <marker date="1492139171520" expanded="true" signature="6:299" ph="..." />
+                <marker date="1492139171520" expanded="true" signature="343:9287" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="350:398" ph="/// Class . ... " />
+                <marker date="1492139171520" expanded="true" signature="459:9285" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="474:764" ph="Constructor" />
+                <marker date="1492139171520" expanded="true" signature="503:625" ph="/// Initializes a new instance of the &lt;see cref=&quot;GlocationDbContext&quot;/&gt; class. ... " />
+                <marker date="1492139171520" expanded="true" signature="724:744" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="774:1193" ph="Properties" />
+                <marker date="1492139171520" expanded="true" signature="802:988" ph="/// Obtiene las opciones del usuario basado en su rol ... " />
+                <marker date="1492139171520" expanded="true" signature="1204:2293" ph="/// This method is called when the model for a derived context has been initialized, but ... " />
+                <marker date="1492139171520" expanded="true" signature="2370:2856" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="2866:9279" ph="UnitOfWork Implementation" />
+                <marker date="1492139171520" expanded="true" signature="2908:3230" ph="/// Returns a IDbSet instance for access to entities of the given type in the context, ... " />
+                <marker date="1492139171520" expanded="true" signature="3303:3358" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="3368:3570" ph="/// Attaches the specified item. ... " />
+                <marker date="1492139171520" expanded="true" signature="3642:3759" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="3769:3989" ph="/// Set object as modified ... " />
+                <marker date="1492139171520" expanded="true" signature="4066:4140" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="4150:4518" ph="/// Apply current values in &lt;paramref name=&quot;original&quot; /&gt; ... " />
+                <marker date="1492139171520" expanded="true" signature="4623:4692" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="4702:4944" ph="/// Commit all changes made in a container. ... " />
+                <marker date="1492139171520" expanded="true" signature="4973:5025" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="5036:5301" ph="/// Commit all changes made in  a container. ... " />
+                <marker date="1492139171520" expanded="true" signature="5347:5978" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="5436:5554" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="5610:5934" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="5756:5913" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="5988:6099" ph="/// Rollback tracked changes. See references of UnitOfWork pattern ... " />
+                <marker date="1492139171520" expanded="true" signature="6137:6406" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="6160:6234" ph="/* set all entities in change tracker ... */" />
+                <marker date="1492139171520" expanded="true" signature="6416:6914" ph="/// Execute specific query with underliying persistence store ... " />
+                <marker date="1492139171520" expanded="true" signature="7017:7225" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="7235:7627" ph="/// Executes the query. ... " />
+                <marker date="1492139171520" expanded="true" signature="7750:7958" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="7968:8405" ph="/// Execute arbitrary command into underliying persistence store ... " />
+                <marker date="1492139171520" expanded="true" signature="8486:8696" ph="{...}" />
+                <marker date="1492139171520" expanded="true" signature="8706:9014" ph="/// Executes the command. ... " />
+                <marker date="1492139171520" expanded="true" signature="9115:9260" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,13 +130,34 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Projec</find>
+      <find>_userRepository</find>
+      <find>Accoun</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Glocation.Common/DTO/ProjectsDTO.cs" />
+        <option value="$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs" />
+        <option value="$PROJECT_DIR$/Glocation.Aplicacion/Servicios/ProjectsService.cs" />
+        <option value="$PROJECT_DIR$/Glocation.Dominio/Entidades/Requisitions.cs" />
+        <option value="$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs" />
+        <option value="$PROJECT_DIR$/Glocation.DataAccess/UnitOfWork/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/Glocation.Dominio/Entidades/Roles.cs" />
+        <option value="$PROJECT_DIR$/Glocation.WebAPI/App_Start/WebApiConfig.cs" />
+        <option value="$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/Glocation.Aplicacion/Servicios/UserService.cs" />
+        <option value="$PROJECT_DIR$/Glocation.Dominio/Entidades/Accounts.cs" />
         <option value="$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs" />
+        <option value="$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs" />
+        <option value="$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +211,46 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="05. Infraestructura" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.DataAccess" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.Services (5 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05. Infraestructura" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.DataAccess" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.Services (5 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="04. Dominio" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
@@ -136,6 +281,46 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.Services (5 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02. ServiciosExternos" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.WebAPI" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.Services (5 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02. ServiciosExternos" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glocation.WebAPI" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -144,6 +329,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="app.con&#9;FILE&#9;file://C:/Users/xinol/Documents/Proyectos/glocation/Glocation.DataAccess/App.config&#10;userd&#9;FILE&#9;file://C:/Users/xinol/Documents/Proyectos/glocation/Glocation.Common/DTO/UserDTO.cs&#10;webapic&#9;null&#9;null&#10;ROles&#9;FILE&#9;file://C:/Users/xinol/Documents/Proyectos/glocation/Glocation.Dominio/Entidades/Roles.cs&#10;Gloca&#9;FILE&#9;file://C:/Users/xinol/Documents/Proyectos/glocation/Glocation.DataAccess/Repository/GlocationDbContext.cs&#10;Uni&#9;FILE&#9;file://C:/Users/xinol/Documents/Proyectos/glocation/Glocation.DataAccess/UnitOfWork/UnitOfWork.cs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,6 +366,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -208,6 +400,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb17e211-679e-4375-9e6b-fce6f09a84d2" name="Default" comment="" />
@@ -215,12 +410,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491793500692</updated>
-      <workItem from="1491793504198" duration="2813000" />
+      <workItem from="1491793504198" duration="6135000" />
+      <workItem from="1491801519393" duration="162000" />
+      <workItem from="1491881669422" duration="7583000" />
+      <workItem from="1491889654461" duration="699000" />
+      <workItem from="1491890995133" duration="989000" />
+      <workItem from="1491892710313" duration="369000" />
+      <workItem from="1492052041051" duration="3547000" />
     </task>
+    <task id="LOCAL-00001" summary="new entities">
+      <created>1491801652930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491801652930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new entities">
+      <created>1491891790897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491891790897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="save user and its multiple roles">
+      <created>1491892757929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1491892757929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2813000" />
+    <option name="totallyTimeSpent" value="19484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,30 +456,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.299509" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29787233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -266,33 +488,530 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new entities" />
+    <MESSAGE value="save user and its multiple roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="save user and its multiple roles" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs</url>
+          <line>22</line>
+          <properties startOffset="663" endOffset="719" documentPath="$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <marker date="1491799626743" expanded="true" signature="6:150" ph="..." />
+            <marker date="1491799626743" expanded="true" signature="244:1053" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="365:504" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="640:788" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="908:1047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1492140643514" expanded="true" signature="6:150" ph="..." />
+            <marker date="1492140643514" expanded="true" signature="190:734" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="241:732" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="354:477" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="599:725" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/ProjectsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1492139171520" expanded="true" signature="6:299" ph="..." />
+            <marker date="1492139171520" expanded="true" signature="343:9287" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="350:398" ph="/// Class . ... " />
+            <marker date="1492139171520" expanded="true" signature="459:9285" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="474:764" ph="Constructor" />
+            <marker date="1492139171520" expanded="true" signature="503:625" ph="/// Initializes a new instance of the &lt;see cref=&quot;GlocationDbContext&quot;/&gt; class. ... " />
+            <marker date="1492139171520" expanded="true" signature="724:744" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="774:1193" ph="Properties" />
+            <marker date="1492139171520" expanded="true" signature="802:988" ph="/// Obtiene las opciones del usuario basado en su rol ... " />
+            <marker date="1492139171520" expanded="true" signature="1204:2293" ph="/// This method is called when the model for a derived context has been initialized, but ... " />
+            <marker date="1492139171520" expanded="true" signature="2370:2856" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="2866:9279" ph="UnitOfWork Implementation" />
+            <marker date="1492139171520" expanded="true" signature="2908:3230" ph="/// Returns a IDbSet instance for access to entities of the given type in the context, ... " />
+            <marker date="1492139171520" expanded="true" signature="3303:3358" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="3368:3570" ph="/// Attaches the specified item. ... " />
+            <marker date="1492139171520" expanded="true" signature="3642:3759" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="3769:3989" ph="/// Set object as modified ... " />
+            <marker date="1492139171520" expanded="true" signature="4066:4140" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="4150:4518" ph="/// Apply current values in &lt;paramref name=&quot;original&quot; /&gt; ... " />
+            <marker date="1492139171520" expanded="true" signature="4623:4692" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="4702:4944" ph="/// Commit all changes made in a container. ... " />
+            <marker date="1492139171520" expanded="true" signature="4973:5025" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5036:5301" ph="/// Commit all changes made in  a container. ... " />
+            <marker date="1492139171520" expanded="true" signature="5347:5978" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5436:5554" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5610:5934" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5756:5913" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5988:6099" ph="/// Rollback tracked changes. See references of UnitOfWork pattern ... " />
+            <marker date="1492139171520" expanded="true" signature="6137:6406" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="6160:6234" ph="/* set all entities in change tracker ... */" />
+            <marker date="1492139171520" expanded="true" signature="6416:6914" ph="/// Execute specific query with underliying persistence store ... " />
+            <marker date="1492139171520" expanded="true" signature="7017:7225" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="7235:7627" ph="/// Executes the query. ... " />
+            <marker date="1492139171520" expanded="true" signature="7750:7958" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="7968:8405" ph="/// Execute arbitrary command into underliying persistence store ... " />
+            <marker date="1492139171520" expanded="true" signature="8486:8696" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="8706:9014" ph="/// Executes the command. ... " />
+            <marker date="1492139171520" expanded="true" signature="9115:9260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="213" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
-            <marker date="1461389876000" expanded="true" signature="6:150" ph="..." />
-            <marker date="1461389876000" expanded="true" signature="203:678" ph="{...}" />
-            <marker date="1461389876000" expanded="true" signature="241:676" ph="{...}" />
-            <marker date="1461389876000" expanded="true" signature="378:435" ph="{...}" />
-            <marker date="1461389876000" expanded="true" signature="480:670" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="6:150" ph="..." />
+            <marker date="1491799626743" expanded="true" signature="244:1053" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="365:504" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="640:788" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="908:1047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1492140643514" expanded="true" signature="6:150" ph="..." />
+            <marker date="1492140643514" expanded="true" signature="190:734" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="241:732" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="354:477" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="599:725" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/ProjectsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1492139171520" expanded="true" signature="6:299" ph="..." />
+            <marker date="1492139171520" expanded="true" signature="343:9287" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="350:398" ph="/// Class . ... " />
+            <marker date="1492139171520" expanded="true" signature="459:9285" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="474:764" ph="Constructor" />
+            <marker date="1492139171520" expanded="true" signature="503:625" ph="/// Initializes a new instance of the &lt;see cref=&quot;GlocationDbContext&quot;/&gt; class. ... " />
+            <marker date="1492139171520" expanded="true" signature="724:744" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="774:1193" ph="Properties" />
+            <marker date="1492139171520" expanded="true" signature="802:988" ph="/// Obtiene las opciones del usuario basado en su rol ... " />
+            <marker date="1492139171520" expanded="true" signature="1204:2293" ph="/// This method is called when the model for a derived context has been initialized, but ... " />
+            <marker date="1492139171520" expanded="true" signature="2370:2856" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="2866:9279" ph="UnitOfWork Implementation" />
+            <marker date="1492139171520" expanded="true" signature="2908:3230" ph="/// Returns a IDbSet instance for access to entities of the given type in the context, ... " />
+            <marker date="1492139171520" expanded="true" signature="3303:3358" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="3368:3570" ph="/// Attaches the specified item. ... " />
+            <marker date="1492139171520" expanded="true" signature="3642:3759" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="3769:3989" ph="/// Set object as modified ... " />
+            <marker date="1492139171520" expanded="true" signature="4066:4140" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="4150:4518" ph="/// Apply current values in &lt;paramref name=&quot;original&quot; /&gt; ... " />
+            <marker date="1492139171520" expanded="true" signature="4623:4692" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="4702:4944" ph="/// Commit all changes made in a container. ... " />
+            <marker date="1492139171520" expanded="true" signature="4973:5025" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5036:5301" ph="/// Commit all changes made in  a container. ... " />
+            <marker date="1492139171520" expanded="true" signature="5347:5978" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5436:5554" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5610:5934" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5756:5913" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5988:6099" ph="/// Rollback tracked changes. See references of UnitOfWork pattern ... " />
+            <marker date="1492139171520" expanded="true" signature="6137:6406" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="6160:6234" ph="/* set all entities in change tracker ... */" />
+            <marker date="1492139171520" expanded="true" signature="6416:6914" ph="/// Execute specific query with underliying persistence store ... " />
+            <marker date="1492139171520" expanded="true" signature="7017:7225" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="7235:7627" ph="/// Executes the query. ... " />
+            <marker date="1492139171520" expanded="true" signature="7750:7958" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="7968:8405" ph="/// Execute arbitrary command into underliying persistence store ... " />
+            <marker date="1492139171520" expanded="true" signature="8486:8696" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="8706:9014" ph="/// Executes the command. ... " />
+            <marker date="1492139171520" expanded="true" signature="9115:9260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <marker date="1491799626743" expanded="true" signature="6:150" ph="..." />
+            <marker date="1491799626743" expanded="true" signature="244:1053" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="365:504" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="640:788" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="908:1047" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/ProjectsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/ProjectsDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Requisitions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
-            <marker date="1491796971100" expanded="true" signature="6:212" ph="..." />
-            <marker date="1491796971100" expanded="true" signature="251:762" ph="{...}" />
-            <marker date="1491796971100" expanded="true" signature="316:760" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="6:150" ph="..." />
+            <marker date="1491799626743" expanded="true" signature="244:1053" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="365:504" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="640:788" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="908:1047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/ProjectsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/ProjectsDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Requisitions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Requisitions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/ProjectsDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/User.cs" />
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/UnitOfWork/UnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1941">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/App_Start/WebApiConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Roles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="140" lean-forward="false" selection-start-line="13" selection-start-column="140" selection-end-line="13" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/ProjectsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <marker date="1491799626743" expanded="true" signature="6:150" ph="..." />
+            <marker date="1491799626743" expanded="true" signature="244:1053" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="365:504" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="640:788" ph="{...}" />
+            <marker date="1491799626743" expanded="true" signature="908:1047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Aplicacion/Servicios/ProjectsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/RepositorioEntidades/ProjectsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.DataAccess/Repository/GlocationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+          <folding>
+            <marker date="1492139171520" expanded="true" signature="6:299" ph="..." />
+            <marker date="1492139171520" expanded="true" signature="343:9287" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="350:398" ph="/// Class . ... " />
+            <marker date="1492139171520" expanded="true" signature="459:9285" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="474:764" ph="Constructor" />
+            <marker date="1492139171520" expanded="true" signature="503:625" ph="/// Initializes a new instance of the &lt;see cref=&quot;GlocationDbContext&quot;/&gt; class. ... " />
+            <marker date="1492139171520" expanded="true" signature="724:744" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="774:1193" ph="Properties" />
+            <marker date="1492139171520" expanded="true" signature="802:988" ph="/// Obtiene las opciones del usuario basado en su rol ... " />
+            <marker date="1492139171520" expanded="true" signature="1204:2293" ph="/// This method is called when the model for a derived context has been initialized, but ... " />
+            <marker date="1492139171520" expanded="true" signature="2370:2856" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="2866:9279" ph="UnitOfWork Implementation" />
+            <marker date="1492139171520" expanded="true" signature="2908:3230" ph="/// Returns a IDbSet instance for access to entities of the given type in the context, ... " />
+            <marker date="1492139171520" expanded="true" signature="3303:3358" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="3368:3570" ph="/// Attaches the specified item. ... " />
+            <marker date="1492139171520" expanded="true" signature="3642:3759" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="3769:3989" ph="/// Set object as modified ... " />
+            <marker date="1492139171520" expanded="true" signature="4066:4140" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="4150:4518" ph="/// Apply current values in &lt;paramref name=&quot;original&quot; /&gt; ... " />
+            <marker date="1492139171520" expanded="true" signature="4623:4692" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="4702:4944" ph="/// Commit all changes made in a container. ... " />
+            <marker date="1492139171520" expanded="true" signature="4973:5025" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5036:5301" ph="/// Commit all changes made in  a container. ... " />
+            <marker date="1492139171520" expanded="true" signature="5347:5978" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5436:5554" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5610:5934" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5756:5913" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="5988:6099" ph="/// Rollback tracked changes. See references of UnitOfWork pattern ... " />
+            <marker date="1492139171520" expanded="true" signature="6137:6406" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="6160:6234" ph="/* set all entities in change tracker ... */" />
+            <marker date="1492139171520" expanded="true" signature="6416:6914" ph="/// Execute specific query with underliying persistence store ... " />
+            <marker date="1492139171520" expanded="true" signature="7017:7225" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="7235:7627" ph="/// Executes the query. ... " />
+            <marker date="1492139171520" expanded="true" signature="7750:7958" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="7968:8405" ph="/// Execute arbitrary command into underliying persistence store ... " />
+            <marker date="1492139171520" expanded="true" signature="8486:8696" ph="{...}" />
+            <marker date="1492139171520" expanded="true" signature="8706:9014" ph="/// Executes the command. ... " />
+            <marker date="1492139171520" expanded="true" signature="9115:9260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Accounts.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <marker date="1492138972528" expanded="true" signature="6:212" ph="..." />
+            <marker date="1492138972528" expanded="true" signature="251:831" ph="{...}" />
+            <marker date="1492138972528" expanded="true" signature="315:829" ph="{...}" />
+            <marker date="1492138972528" expanded="true" signature="347:457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Dominio/Entidades/Projects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <marker date="1492139018991" expanded="true" signature="6:212" ph="..." />
+            <marker date="1492139018991" expanded="true" signature="251:894" ph="{...}" />
+            <marker date="1492139018991" expanded="true" signature="316:892" ph="{...}" />
+            <marker date="1492139018991" expanded="true" signature="348:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.WebAPI/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <marker date="1492140643514" expanded="true" signature="6:150" ph="..." />
+            <marker date="1492140643514" expanded="true" signature="190:734" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="241:732" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="354:477" ph="{...}" />
+            <marker date="1492140643514" expanded="true" signature="599:725" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glocation.Common/DTO/UserDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <marker date="1492140681101" expanded="true" signature="6:108" ph="..." />
+            <marker date="1492140681101" expanded="true" signature="140:441" ph="{...}" />
+            <marker date="1492140681101" expanded="true" signature="167:439" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
-using Glocation.Aplicacion;
-using Glocation.Aplicacion.Servicios;
-using Glocation.Common.DTO;
+using BIST.Aplicacion;
+using BIST.Aplicacion.Servicios;
+using BIST.Common.DTO;
 
-namespace Glocation.WebAPI.Controllers
+namespace BIST.WebAPI.Controllers
 {
 
     public class UserController : ApiController
@@ -24,5 +24,6 @@ namespace Glocation.WebAPI.Controllers
             UserService userService = new UserService();
             return userService.insertUser(user);
         }
+
     }
 }

@@ -1,27 +1,28 @@
-﻿using Glocation.Dominio.Entidades;
-using Glocation.DataAccess.UnitOfWork;
+﻿using BIST.Dominio.Entidades;
+using BIST.DataAccess.UnitOfWork;
 using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Infrastructure.Interception;
+using System.Runtime.InteropServices;
 
 
-namespace Glocation.DataAccess.Repository
+namespace BIST.DataAccess.Repository
 {
     /// <summary>
     /// Class .
     /// </summary>
-    public class GlocationDbContext : DbContext, IUnitOfWork
+    public class BISTDbContext : DbContext, IUnitOfWork
     {
         #region Constructor
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="GlocationDbContext"/> class.
+        /// Initializes a new instance of the <see cref="BISTDbContext"/> class.
         /// </summary>
-        public GlocationDbContext()
-            : base("name=GlocationDbContext_ConnectionString")
+        public BISTDbContext()
+            : base("name=BISTDbContext_ConnectionString")
         {
         }
 
@@ -62,10 +63,16 @@ namespace Glocation.DataAccess.Repository
         /// classes directly.</remarks>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<Accounts>()
                 .HasMany(e => e.Roles)
                 .WithMany(e => e.Accounts)
-                .Map(m => m.ToTable("Account_has_roles").MapLeftKey("UserId").MapRightKey("RoleId"));
+                .Map(m => m.ToTable("Account_has_Roles").MapLeftKey("AccountId").MapRightKey("RoleId"));
+
+            modelBuilder.Entity<Accounts>()
+                .HasMany(e => e.Projects)
+                .WithMany(e => e.Accounts)
+                .Map(m => m.ToTable("Account_has_Projects").MapLeftKey("AccountId").MapRightKey("ProjectId"));
         }
 
         #region UnitOfWork Implementation

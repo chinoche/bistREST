@@ -1,11 +1,11 @@
-﻿using Glocation.Dominio.Entidades;
+﻿using BIST.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Glocation.DataAccess.RepositorioEntidades
+namespace BIST.DataAccess.RepositorioEntidades
 {
     public class UserRepository
     {

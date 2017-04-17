@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Glocation.Dominio.Entidades
+namespace BIST.Dominio.Entidades
 {
     [Table("Accounts")]
     public class Accounts: BaseEntity
@@ -14,10 +14,11 @@ namespace Glocation.Dominio.Entidades
         public Accounts()
         {
             Roles = new HashSet<Roles>();
+            Projects = new HashSet<Projects>();
         }
 
         [Key]
-        public string UserId { get; set; }
+        public string AccountId { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -29,6 +30,6 @@ namespace Glocation.Dominio.Entidades
 
         public virtual ICollection<Roles> Roles { get; set; }
 
-
+        public virtual ICollection<Projects> Projects { get; set; }
     }
 }

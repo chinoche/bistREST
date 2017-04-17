@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. ServiciosExternos", "02. ServiciosExternos", "{ABD487E8-E9B4-4D5A-8AA0-CA4F136E5125}"
 EndProject
@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{709804
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.WebAPI", "Glocation.WebAPI\Glocation.WebAPI.csproj", "{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIST.WebAPI", "Glocation.WebAPI\BIST.WebAPI.csproj", "{3233CB30-D02A-44B4-B3ED-2770E8FBBA91}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5302C050-207A-4CEA-8C71-73FA49FC4CCD} = {5302C050-207A-4CEA-8C71-73FA49FC4CCD}
 		{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70} = {9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}
@@ -28,13 +28,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.WebAPI", "Glocati
 		{B5024FDE-A820-449D-9A72-244E7B26AC1A} = {B5024FDE-A820-449D-9A72-244E7B26AC1A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.Common", "Glocation.Common\Glocation.Common.csproj", "{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIST.Common", "Glocation.Common\BIST.Common.csproj", "{9E3C9D7D-6A81-4C4D-94A9-45C0BA50AD70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.DataAccess", "Glocation.DataAccess\Glocation.DataAccess.csproj", "{5302C050-207A-4CEA-8C71-73FA49FC4CCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIST.DataAccess", "Glocation.DataAccess\BIST.DataAccess.csproj", "{5302C050-207A-4CEA-8C71-73FA49FC4CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.Dominio", "Glocation.Dominio\Glocation.Dominio.csproj", "{B5024FDE-A820-449D-9A72-244E7B26AC1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIST.Dominio", "Glocation.Dominio\BIST.Dominio.csproj", "{B5024FDE-A820-449D-9A72-244E7B26AC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glocation.Aplicacion", "Glocation.Aplicacion\Glocation.Aplicacion.csproj", "{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIST.Aplicacion", "Glocation.Aplicacion\BIST.Aplicacion.csproj", "{FDCEF290-D73E-4568-9002-7BDBD2AF9C10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

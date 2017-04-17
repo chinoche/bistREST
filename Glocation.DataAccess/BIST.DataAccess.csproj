@@ -7,8 +7,8 @@
     <ProjectGuid>{5302C050-207A-4CEA-8C71-73FA49FC4CCD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Glocation.DataAccess</RootNamespace>
-    <AssemblyName>Glocation.DataAccess</AssemblyName>
+    <RootNamespace>BIST.DataAccess</RootNamespace>
+    <AssemblyName>BIST.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -28,7 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>bin\Debug\Glocation.DataAccess.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\BIST.DataAccess.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -124,7 +124,7 @@
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="UnitOfWork\ISql.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="Repository\GlocationDbContext.cs">
+    <Compile Include="Repository\BISTDbContext.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
@@ -141,13 +141,13 @@
     <Folder Include="DbInitializers\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Glocation.Common\Glocation.Common.csproj">
+    <ProjectReference Include="..\Glocation.Common\BIST.Common.csproj">
       <Project>{9e3c9d7d-6a81-4c4d-94a9-45c0ba50ad70}</Project>
-      <Name>Glocation.Common</Name>
+      <Name>BIST.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Glocation.Dominio\Glocation.Dominio.csproj">
+    <ProjectReference Include="..\Glocation.Dominio\BIST.Dominio.csproj">
       <Project>{b5024fde-a820-449d-9a72-244e7b26ac1a}</Project>
-      <Name>Glocation.Dominio</Name>
+      <Name>BIST.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

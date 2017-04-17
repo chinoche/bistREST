@@ -6,8 +6,8 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using log4net.Config;
 
-[assembly: OwinStartup(typeof(Glocation.WebAPI.Startup))]
-namespace Glocation.WebAPI
+[assembly: OwinStartup(typeof(BIST.WebAPI.Startup))]
+namespace BIST.WebAPI
 {
     public class Startup
     {

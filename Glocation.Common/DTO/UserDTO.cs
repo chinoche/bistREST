@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Glocation.Dominio.Entidades;
+using BIST.Dominio.Entidades;
 
-namespace Glocation.Common.DTO
+namespace BIST.Common.DTO
 {
     public class UserDTO
     {
@@ -14,5 +14,7 @@ namespace Glocation.Common.DTO
         public string Email { get; set; }
 
         public virtual ICollection<Roles> Roles { get; set; }
+
+        public virtual ICollection<Projects> Projects { get; set; }
     }
 }

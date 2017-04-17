@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Glocation.Aplicacion
+namespace BIST.Aplicacion
 {
     public class RespuestaWebAPI<T>
     {

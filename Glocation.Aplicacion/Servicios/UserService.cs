@@ -1,14 +1,14 @@
-﻿using Glocation.Common.DTO;
-using Glocation.DataAccess.RepositorioEntidades;
-using Glocation.DataAccess.UnitOfWork;
-using Glocation.Dominio.Entidades;
+﻿using BIST.Common.DTO;
+using BIST.DataAccess.RepositorioEntidades;
+using BIST.DataAccess.UnitOfWork;
+using BIST.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Glocation.Aplicacion.Servicios
+namespace BIST.Aplicacion.Servicios
 {
     public class UserService
     {
@@ -47,10 +47,11 @@ namespace Glocation.Aplicacion.Servicios
             {
                 Accounts account = new Accounts()
                 {
-                    UserId = userDto.UserId,
+                    AccountId = userDto.UserId,
                     Name = userDto.Name,
                     Email = userDto.Name,
-                    Roles = userDto.Roles
+                    Roles = userDto.Roles,
+                    Projects = userDto.Projects
                 };
                 userRepository.insertAccounts(account);
                 unitOfWork.Save();

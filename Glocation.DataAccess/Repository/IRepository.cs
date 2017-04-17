@@ -1,10 +1,10 @@
-﻿using Glocation.Dominio.Entidades;
+﻿using BIST.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Glocation.DataAccess.Repository
+namespace BIST.DataAccess.Repository
 {
     /// <summary>
     /// Interface IRepository

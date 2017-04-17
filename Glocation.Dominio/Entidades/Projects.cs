@@ -6,12 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Glocation.Dominio.Entidades
+namespace BIST.Dominio.Entidades
 {
     [Table("Projects")]
     public class Projects : BaseEntity
     {
-        public Projects() { }
+        public Projects()
+        {
+            Accounts = new HashSet<Accounts>();
+        }
 
         [Key]
         public int ProjectId { get; set; }
@@ -22,12 +25,9 @@ namespace Glocation.Dominio.Entidades
 
         [Required]
         [StringLength(150)]
-        public string ShippingAddress { get; set; }
-                
-        public DateTime? CreatedAt{ get; set; }
+        public string ShippingAddress { get; set; }            
 
-        [StringLength(50)]
-        public string CreatedBy { get; set; }
+        public virtual ICollection<Accounts> Accounts { get; set; }
         
     }
 }

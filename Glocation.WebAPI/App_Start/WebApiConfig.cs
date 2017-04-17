@@ -3,7 +3,7 @@ using System.Net.Http.Formatting;
 using System.Web.Http;
 using Newtonsoft.Json.Serialization;
 
-namespace Glocation.WebAPI
+namespace BIST.WebAPI
 {
     public static class WebApiConfig
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 
-namespace Glocation.DataAccess.UnitOfWork
+namespace BIST.DataAccess.UnitOfWork
 {
     /// <summary>
     /// Interface IUnitOfWork

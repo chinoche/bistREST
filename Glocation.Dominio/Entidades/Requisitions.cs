@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Glocation.Dominio.Entidades
+namespace BIST.Dominio.Entidades
 {
     [Table("Requisitions")]
     public class Requisitions

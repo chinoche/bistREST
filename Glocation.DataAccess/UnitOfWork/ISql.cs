@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Glocation.DataAccess.UnitOfWork
+namespace BIST.DataAccess.UnitOfWork
 {
     /// <summary>
     /// Base contract for Catalogs 'dialect specific queries'.
